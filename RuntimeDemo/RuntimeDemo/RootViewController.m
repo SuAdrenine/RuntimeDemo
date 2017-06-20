@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSArray *titleArr = @[@"获取属性、成员变量与方法",@"获取协议列表以及方法交换",@"在分类中增加属性",@"获取类中所有成员变量以及归解档",@"字典与模型的互相转换"];
+    NSArray *titleArr = @[@"获取属性、成员变量与方法",@"获取协议列表以及方法交换",@"在分类中增加属性",@"获取类中所有成员变量以及归解档",@"字典转模型"];
     for (int i=0; i<titleArr.count; i++) {
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         [button setTitle:titleArr[i] forState:UIControlStateNormal];
@@ -66,7 +66,7 @@
                             },
                           @{@"class": @"ExchangeDicAndModelViewController",
                             @"property":
-                                @{@"myTitle": @"字典与模型的互相转换"}
+                                @{@"myTitle": @"字典转模型"}
                             }];
     
     [self push:userInfo[index]];

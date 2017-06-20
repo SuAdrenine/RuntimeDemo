@@ -37,6 +37,18 @@
     
     [CongigManyIvar saveIvarModel:m];
     [CongigManyIvar myIvarModel];
+    
+    
+    NSString *path = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"temp.plist"];
+    
+    // 归档
+    [NSKeyedArchiver archiveRootObject:m toFile:path];
+    
+    // 解档
+    ManyIvar *person = [NSKeyedUnarchiver unarchiveObjectWithFile:path];
+    NSLog(@"%@",person.name);
+    
+    NSLog(@"%@",path);
 }
 
 - (void)didReceiveMemoryWarning {

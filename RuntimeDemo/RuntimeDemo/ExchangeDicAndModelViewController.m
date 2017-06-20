@@ -7,6 +7,9 @@
 //
 
 #import "ExchangeDicAndModelViewController.h"
+#import "User.h"
+#import "Book.h"
+#import "NSObject+JsonExtension.h"
 
 @interface ExchangeDicAndModelViewController ()
 
@@ -18,6 +21,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = self.myTitle;
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"model.json" ofType:nil];
+    NSData *jsonData = [NSData dataWithContentsOfFile:path];
+    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:NULL];
+    
+    User *user = [User objectWithDict:json];
+    NSLog(@"%@",user.cat);
+    for (Book *book in user.books) {
+        NSLog(@"%@",book.name);
+    }
 }
 
 - (void)didReceiveMemoryWarning {

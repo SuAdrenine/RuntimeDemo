@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5761C5A71EF9005900E7C142 /* ExchangeDicAndModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761C5A61EF9005900E7C142 /* ExchangeDicAndModelViewController.m */; };
+		5761C5AA1EF9058D00E7C142 /* NSObject+JsonExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761C5A91EF9058D00E7C142 /* NSObject+JsonExtension.m */; };
+		5761C5AD1EF9069400E7C142 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761C5AC1EF9069400E7C142 /* User.m */; };
+		5761C5B71EF906A100E7C142 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761C5AF1EF906A100E7C142 /* Book.m */; };
+		5761C5BD1EF90CF200E7C142 /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = 5761C5BC1EF90CF200E7C142 /* model.json */; };
+		5761C5C21EF90DBD00E7C142 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761C5BF1EF90DBD00E7C142 /* Cat.m */; };
+		5761C5C31EF90DBD00E7C142 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761C5C11EF90DBD00E7C142 /* Fish.m */; };
 		57C86FF41EF3642B00BAE765 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C86FF31EF3642B00BAE765 /* main.m */; };
 		57C86FF71EF3642B00BAE765 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C86FF61EF3642B00BAE765 /* AppDelegate.m */; };
 		57C86FFD1EF3642B00BAE765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C86FFB1EF3642B00BAE765 /* Main.storyboard */; };
@@ -53,6 +59,18 @@
 		5101706A070CB8E48FA251C4 /* libPods-RuntimeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RuntimeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5761C5A51EF9005900E7C142 /* ExchangeDicAndModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeDicAndModelViewController.h; sourceTree = "<group>"; };
 		5761C5A61EF9005900E7C142 /* ExchangeDicAndModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeDicAndModelViewController.m; sourceTree = "<group>"; };
+		5761C5A81EF9058D00E7C142 /* NSObject+JsonExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JsonExtension.h"; sourceTree = "<group>"; };
+		5761C5A91EF9058D00E7C142 /* NSObject+JsonExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JsonExtension.m"; sourceTree = "<group>"; };
+		5761C5AB1EF9069400E7C142 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		5761C5AC1EF9069400E7C142 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		5761C5AE1EF906A100E7C142 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		5761C5AF1EF906A100E7C142 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		5761C5B21EF906A100E7C142 /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
+		5761C5BC1EF90CF200E7C142 /* model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = model.json; sourceTree = "<group>"; };
+		5761C5BE1EF90DBD00E7C142 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		5761C5BF1EF90DBD00E7C142 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		5761C5C01EF90DBD00E7C142 /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
+		5761C5C11EF90DBD00E7C142 /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
 		57C86FEF1EF3642B00BAE765 /* RuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C86FF31EF3642B00BAE765 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57C86FF51EF3642B00BAE765 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -122,6 +140,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5761C5BB1EF906A500E7C142 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				57C8703D1EF75C1600BAE765 /* People+ReplaceMethod.h */,
+				57C8703E1EF75C1600BAE765 /* People+ReplaceMethod.m */,
+				57C8704C1EF8C93900BAE765 /* Man+AddAName.h */,
+				57C8704D1EF8C93900BAE765 /* Man+AddAName.m */,
+				57C870551EF8EE0600BAE765 /* NSObject+EncodeAndDecode.h */,
+				57C870561EF8EE0600BAE765 /* NSObject+EncodeAndDecode.m */,
+				5761C5A81EF9058D00E7C142 /* NSObject+JsonExtension.h */,
+				5761C5A91EF9058D00E7C142 /* NSObject+JsonExtension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		57C86FE61EF3642B00BAE765 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +180,7 @@
 		57C86FF11EF3642B00BAE765 /* RuntimeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5761C5BB1EF906A500E7C142 /* Category */,
 				57C870361EF3CB5F00BAE765 /* Class */,
 				57C870311EF3791200BAE765 /* RuntimeClass */,
 				57C86FF51EF3642B00BAE765 /* AppDelegate.h */,
@@ -203,6 +237,7 @@
 				57C870501EF8CB3600BAE765 /* EncodeAndDecodeViewController.m */,
 				5761C5A51EF9005900E7C142 /* ExchangeDicAndModelViewController.h */,
 				5761C5A61EF9005900E7C142 /* ExchangeDicAndModelViewController.m */,
+				5761C5BC1EF90CF200E7C142 /* model.json */,
 			);
 			name = RuntimeClass;
 			sourceTree = "<group>";
@@ -210,20 +245,23 @@
 		57C870361EF3CB5F00BAE765 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				5761C5BE1EF90DBD00E7C142 /* Cat.h */,
+				5761C5BF1EF90DBD00E7C142 /* Cat.m */,
+				5761C5C01EF90DBD00E7C142 /* Fish.h */,
+				5761C5C11EF90DBD00E7C142 /* Fish.m */,
+				5761C5AB1EF9069400E7C142 /* User.h */,
+				5761C5AC1EF9069400E7C142 /* User.m */,
 				57C870331EF386B000BAE765 /* People.h */,
 				57C870341EF386B000BAE765 /* People.m */,
-				57C8703D1EF75C1600BAE765 /* People+ReplaceMethod.h */,
-				57C8703E1EF75C1600BAE765 /* People+ReplaceMethod.m */,
+				5761C5AE1EF906A100E7C142 /* Book.h */,
+				5761C5AF1EF906A100E7C142 /* Book.m */,
+				5761C5B21EF906A100E7C142 /* decode.h */,
 				57C870491EF8C91F00BAE765 /* Man.h */,
 				57C8704A1EF8C91F00BAE765 /* Man.m */,
-				57C8704C1EF8C93900BAE765 /* Man+AddAName.h */,
-				57C8704D1EF8C93900BAE765 /* Man+AddAName.m */,
 				57C870521EF8CBB200BAE765 /* ManyIvar.h */,
 				57C870531EF8CBB200BAE765 /* ManyIvar.m */,
 				57C870581EF8F58D00BAE765 /* CongigManyIvar.h */,
 				57C870591EF8F58D00BAE765 /* CongigManyIvar.m */,
-				57C870551EF8EE0600BAE765 /* NSObject+EncodeAndDecode.h */,
-				57C870561EF8EE0600BAE765 /* NSObject+EncodeAndDecode.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -357,6 +395,7 @@
 				57C870021EF3642C00BAE765 /* LaunchScreen.storyboard in Resources */,
 				57C86FFF1EF3642C00BAE765 /* Assets.xcassets in Resources */,
 				57C86FFD1EF3642B00BAE765 /* Main.storyboard in Resources */,
+				5761C5BD1EF90CF200E7C142 /* model.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,19 +470,24 @@
 			files = (
 				57C8704B1EF8C91F00BAE765 /* Man.m in Sources */,
 				57C870571EF8EE0600BAE765 /* NSObject+EncodeAndDecode.m in Sources */,
+				5761C5AD1EF9069400E7C142 /* User.m in Sources */,
 				57C870351EF386B000BAE765 /* People.m in Sources */,
+				5761C5C21EF90DBD00E7C142 /* Cat.m in Sources */,
 				57C8704E1EF8C93900BAE765 /* Man+AddAName.m in Sources */,
 				5761C5A71EF9005900E7C142 /* ExchangeDicAndModelViewController.m in Sources */,
 				57C870541EF8CBB200BAE765 /* ManyIvar.m in Sources */,
 				57C870391EF3CB8700BAE765 /* ExchangeMethodViewController.m in Sources */,
 				57C8702D1EF3711300BAE765 /* BaseViewController.m in Sources */,
+				5761C5B71EF906A100E7C142 /* Book.m in Sources */,
 				57C8705A1EF8F58D00BAE765 /* CongigManyIvar.m in Sources */,
 				57C86FF71EF3642B00BAE765 /* AppDelegate.m in Sources */,
 				57C870271EF3645400BAE765 /* RootViewController.m in Sources */,
 				57C870301EF3790B00BAE765 /* GetClassAndMethodViewController.m in Sources */,
+				5761C5C31EF90DBD00E7C142 /* Fish.m in Sources */,
 				57C8703F1EF75C1600BAE765 /* People+ReplaceMethod.m in Sources */,
 				57C86FF41EF3642B00BAE765 /* main.m in Sources */,
 				57C870511EF8CB3600BAE765 /* EncodeAndDecodeViewController.m in Sources */,
+				5761C5AA1EF9058D00E7C142 /* NSObject+JsonExtension.m in Sources */,
 				57C870421EF8C52100BAE765 /* AddPropertyInCategoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
