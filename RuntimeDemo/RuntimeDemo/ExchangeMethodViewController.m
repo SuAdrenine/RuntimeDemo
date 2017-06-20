@@ -11,7 +11,6 @@
 #import "People+ReplaceMethod.h"
 
 @interface ExchangeMethodViewController ()<PeopleDelegate,UITabBarDelegate,UITableViewDataSource>
-
 @property(nonatomic, strong) NSMutableArray *buttonArr;
 
 @end
@@ -44,7 +43,7 @@
         make.left.equalTo(self.view).offset(40);
         make.right.equalTo(self.view).offset(-40);
     }];
-    
+
 }
 
 /**

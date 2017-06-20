@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5761C5A71EF9005900E7C142 /* ExchangeDicAndModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761C5A61EF9005900E7C142 /* ExchangeDicAndModelViewController.m */; };
 		57C86FF41EF3642B00BAE765 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C86FF31EF3642B00BAE765 /* main.m */; };
 		57C86FF71EF3642B00BAE765 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C86FF61EF3642B00BAE765 /* AppDelegate.m */; };
 		57C86FFD1EF3642B00BAE765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C86FFB1EF3642B00BAE765 /* Main.storyboard */; };
@@ -20,6 +21,13 @@
 		57C870351EF386B000BAE765 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C870341EF386B000BAE765 /* People.m */; };
 		57C870391EF3CB8700BAE765 /* ExchangeMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C870381EF3CB8700BAE765 /* ExchangeMethodViewController.m */; };
 		57C8703F1EF75C1600BAE765 /* People+ReplaceMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8703E1EF75C1600BAE765 /* People+ReplaceMethod.m */; };
+		57C870421EF8C52100BAE765 /* AddPropertyInCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C870411EF8C52100BAE765 /* AddPropertyInCategoryViewController.m */; };
+		57C8704B1EF8C91F00BAE765 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8704A1EF8C91F00BAE765 /* Man.m */; };
+		57C8704E1EF8C93900BAE765 /* Man+AddAName.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8704D1EF8C93900BAE765 /* Man+AddAName.m */; };
+		57C870511EF8CB3600BAE765 /* EncodeAndDecodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C870501EF8CB3600BAE765 /* EncodeAndDecodeViewController.m */; };
+		57C870541EF8CBB200BAE765 /* ManyIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C870531EF8CBB200BAE765 /* ManyIvar.m */; };
+		57C870571EF8EE0600BAE765 /* NSObject+EncodeAndDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C870561EF8EE0600BAE765 /* NSObject+EncodeAndDecode.m */; };
+		57C8705A1EF8F58D00BAE765 /* CongigManyIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C870591EF8F58D00BAE765 /* CongigManyIvar.m */; };
 		7E2EE3E5BF659BBE45034053 /* libPods-RuntimeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5101706A070CB8E48FA251C4 /* libPods-RuntimeDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +51,8 @@
 /* Begin PBXFileReference section */
 		3FAA42295EE455A3E4B27852 /* Pods-RuntimeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuntimeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuntimeDemo/Pods-RuntimeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5101706A070CB8E48FA251C4 /* libPods-RuntimeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RuntimeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5761C5A51EF9005900E7C142 /* ExchangeDicAndModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeDicAndModelViewController.h; sourceTree = "<group>"; };
+		5761C5A61EF9005900E7C142 /* ExchangeDicAndModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeDicAndModelViewController.m; sourceTree = "<group>"; };
 		57C86FEF1EF3642B00BAE765 /* RuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C86FF31EF3642B00BAE765 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57C86FF51EF3642B00BAE765 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +79,20 @@
 		57C870381EF3CB8700BAE765 /* ExchangeMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeMethodViewController.m; sourceTree = "<group>"; };
 		57C8703D1EF75C1600BAE765 /* People+ReplaceMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "People+ReplaceMethod.h"; sourceTree = "<group>"; };
 		57C8703E1EF75C1600BAE765 /* People+ReplaceMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "People+ReplaceMethod.m"; sourceTree = "<group>"; };
+		57C870401EF8C52100BAE765 /* AddPropertyInCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPropertyInCategoryViewController.h; sourceTree = "<group>"; };
+		57C870411EF8C52100BAE765 /* AddPropertyInCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPropertyInCategoryViewController.m; sourceTree = "<group>"; };
+		57C870491EF8C91F00BAE765 /* Man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		57C8704A1EF8C91F00BAE765 /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		57C8704C1EF8C93900BAE765 /* Man+AddAName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Man+AddAName.h"; sourceTree = "<group>"; };
+		57C8704D1EF8C93900BAE765 /* Man+AddAName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Man+AddAName.m"; sourceTree = "<group>"; };
+		57C8704F1EF8CB3600BAE765 /* EncodeAndDecodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodeAndDecodeViewController.h; sourceTree = "<group>"; };
+		57C870501EF8CB3600BAE765 /* EncodeAndDecodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncodeAndDecodeViewController.m; sourceTree = "<group>"; };
+		57C870521EF8CBB200BAE765 /* ManyIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManyIvar.h; sourceTree = "<group>"; };
+		57C870531EF8CBB200BAE765 /* ManyIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManyIvar.m; sourceTree = "<group>"; };
+		57C870551EF8EE0600BAE765 /* NSObject+EncodeAndDecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EncodeAndDecode.h"; sourceTree = "<group>"; };
+		57C870561EF8EE0600BAE765 /* NSObject+EncodeAndDecode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EncodeAndDecode.m"; sourceTree = "<group>"; };
+		57C870581EF8F58D00BAE765 /* CongigManyIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CongigManyIvar.h; sourceTree = "<group>"; };
+		57C870591EF8F58D00BAE765 /* CongigManyIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CongigManyIvar.m; sourceTree = "<group>"; };
 		6D62B7F4823FC418B30FB22F /* Pods-RuntimeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuntimeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuntimeDemo/Pods-RuntimeDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,6 +197,12 @@
 				57C8702F1EF3790B00BAE765 /* GetClassAndMethodViewController.m */,
 				57C870371EF3CB8700BAE765 /* ExchangeMethodViewController.h */,
 				57C870381EF3CB8700BAE765 /* ExchangeMethodViewController.m */,
+				57C870401EF8C52100BAE765 /* AddPropertyInCategoryViewController.h */,
+				57C870411EF8C52100BAE765 /* AddPropertyInCategoryViewController.m */,
+				57C8704F1EF8CB3600BAE765 /* EncodeAndDecodeViewController.h */,
+				57C870501EF8CB3600BAE765 /* EncodeAndDecodeViewController.m */,
+				5761C5A51EF9005900E7C142 /* ExchangeDicAndModelViewController.h */,
+				5761C5A61EF9005900E7C142 /* ExchangeDicAndModelViewController.m */,
 			);
 			name = RuntimeClass;
 			sourceTree = "<group>";
@@ -184,6 +214,16 @@
 				57C870341EF386B000BAE765 /* People.m */,
 				57C8703D1EF75C1600BAE765 /* People+ReplaceMethod.h */,
 				57C8703E1EF75C1600BAE765 /* People+ReplaceMethod.m */,
+				57C870491EF8C91F00BAE765 /* Man.h */,
+				57C8704A1EF8C91F00BAE765 /* Man.m */,
+				57C8704C1EF8C93900BAE765 /* Man+AddAName.h */,
+				57C8704D1EF8C93900BAE765 /* Man+AddAName.m */,
+				57C870521EF8CBB200BAE765 /* ManyIvar.h */,
+				57C870531EF8CBB200BAE765 /* ManyIvar.m */,
+				57C870581EF8F58D00BAE765 /* CongigManyIvar.h */,
+				57C870591EF8F58D00BAE765 /* CongigManyIvar.m */,
+				57C870551EF8EE0600BAE765 /* NSObject+EncodeAndDecode.h */,
+				57C870561EF8EE0600BAE765 /* NSObject+EncodeAndDecode.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -389,14 +429,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C8704B1EF8C91F00BAE765 /* Man.m in Sources */,
+				57C870571EF8EE0600BAE765 /* NSObject+EncodeAndDecode.m in Sources */,
 				57C870351EF386B000BAE765 /* People.m in Sources */,
+				57C8704E1EF8C93900BAE765 /* Man+AddAName.m in Sources */,
+				5761C5A71EF9005900E7C142 /* ExchangeDicAndModelViewController.m in Sources */,
+				57C870541EF8CBB200BAE765 /* ManyIvar.m in Sources */,
 				57C870391EF3CB8700BAE765 /* ExchangeMethodViewController.m in Sources */,
 				57C8702D1EF3711300BAE765 /* BaseViewController.m in Sources */,
+				57C8705A1EF8F58D00BAE765 /* CongigManyIvar.m in Sources */,
 				57C86FF71EF3642B00BAE765 /* AppDelegate.m in Sources */,
 				57C870271EF3645400BAE765 /* RootViewController.m in Sources */,
 				57C870301EF3790B00BAE765 /* GetClassAndMethodViewController.m in Sources */,
 				57C8703F1EF75C1600BAE765 /* People+ReplaceMethod.m in Sources */,
 				57C86FF41EF3642B00BAE765 /* main.m in Sources */,
+				57C870511EF8CB3600BAE765 /* EncodeAndDecodeViewController.m in Sources */,
+				57C870421EF8C52100BAE765 /* AddPropertyInCategoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

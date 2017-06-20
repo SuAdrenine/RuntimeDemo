@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSArray *titleArr = @[@"runtime获取属性、成员变量与方法",@"runtime获取协议列表以及方法交换"];
+    NSArray *titleArr = @[@"获取属性、成员变量与方法",@"获取协议列表以及方法交换",@"在分类中增加属性",@"获取类中所有成员变量以及归解档",@"字典与模型的互相转换"];
     for (int i=0; i<titleArr.count; i++) {
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         [button setTitle:titleArr[i] forState:UIControlStateNormal];
@@ -50,21 +50,28 @@
     // 类名，标题
     NSArray *userInfo = @[@{@"class": @"GetClassAndMethodViewController",
                             @"property":
-                                @{@"myTitle": @"runtime获取属性、成员变量与方法"}
+                                @{@"myTitle": @"获取属性、成员变量与方法"}
                             },
                           @{@"class": @"ExchangeMethodViewController",
                             @"property":
-                                @{@"myTitle": @"runtime获取协议列表以及方法交换"}
+                                @{@"myTitle": @"获取协议列表以及方法交换"}
                             },
-                          @{@"class": @"GetClassAndMethodViewController",
+                          @{@"class": @"AddPropertyInCategoryViewController",
                             @"property":
-                                @{@"myTitle": @"runtime获取类以及方法的使用"}
+                                @{@"myTitle": @"在分类中增加属性"}
+                            },
+                          @{@"class": @"EncodeAndDecodeViewController",
+                            @"property":
+                                @{@"myTitle": @"在分类中增加属性"}
+                            },
+                          @{@"class": @"ExchangeDicAndModelViewController",
+                            @"property":
+                                @{@"myTitle": @"字典与模型的互相转换"}
                             }];
     
     [self push:userInfo[index]];
     
 }
-
 
 /**
  跳转界面
