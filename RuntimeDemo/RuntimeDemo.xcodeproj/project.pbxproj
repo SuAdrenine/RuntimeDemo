@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5754235E1EFB47220012C70F /* FindIMPBySelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5754235D1EFB47220012C70F /* FindIMPBySelectorViewController.m */; };
 		5761C5A71EF9005900E7C142 /* ExchangeDicAndModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761C5A61EF9005900E7C142 /* ExchangeDicAndModelViewController.m */; };
 		5761C5AA1EF9058D00E7C142 /* NSObject+JsonExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761C5A91EF9058D00E7C142 /* NSObject+JsonExtension.m */; };
 		5761C5AD1EF9069400E7C142 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761C5AC1EF9069400E7C142 /* User.m */; };
@@ -57,6 +58,8 @@
 /* Begin PBXFileReference section */
 		3FAA42295EE455A3E4B27852 /* Pods-RuntimeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuntimeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuntimeDemo/Pods-RuntimeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5101706A070CB8E48FA251C4 /* libPods-RuntimeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RuntimeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5754235C1EFB47220012C70F /* FindIMPBySelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindIMPBySelectorViewController.h; sourceTree = "<group>"; };
+		5754235D1EFB47220012C70F /* FindIMPBySelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindIMPBySelectorViewController.m; sourceTree = "<group>"; };
 		5761C5A51EF9005900E7C142 /* ExchangeDicAndModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeDicAndModelViewController.h; sourceTree = "<group>"; };
 		5761C5A61EF9005900E7C142 /* ExchangeDicAndModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeDicAndModelViewController.m; sourceTree = "<group>"; };
 		5761C5A81EF9058D00E7C142 /* NSObject+JsonExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JsonExtension.h"; sourceTree = "<group>"; };
@@ -238,6 +241,8 @@
 				5761C5A51EF9005900E7C142 /* ExchangeDicAndModelViewController.h */,
 				5761C5A61EF9005900E7C142 /* ExchangeDicAndModelViewController.m */,
 				5761C5BC1EF90CF200E7C142 /* model.json */,
+				5754235C1EFB47220012C70F /* FindIMPBySelectorViewController.h */,
+				5754235D1EFB47220012C70F /* FindIMPBySelectorViewController.m */,
 			);
 			name = RuntimeClass;
 			sourceTree = "<group>";
@@ -472,6 +477,7 @@
 				57C870571EF8EE0600BAE765 /* NSObject+EncodeAndDecode.m in Sources */,
 				5761C5AD1EF9069400E7C142 /* User.m in Sources */,
 				57C870351EF386B000BAE765 /* People.m in Sources */,
+				5754235E1EFB47220012C70F /* FindIMPBySelectorViewController.m in Sources */,
 				5761C5C21EF90DBD00E7C142 /* Cat.m in Sources */,
 				57C8704E1EF8C93900BAE765 /* Man+AddAName.m in Sources */,
 				5761C5A71EF9005900E7C142 /* ExchangeDicAndModelViewController.m in Sources */,

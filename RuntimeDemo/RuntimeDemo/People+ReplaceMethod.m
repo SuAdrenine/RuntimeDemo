@@ -13,7 +13,7 @@
 
 +(void)load {
     NSString *className = NSStringFromClass(self.class);
-    NSLog(@"classname %@", className);
+//    NSLog(@"classname %@", className);
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         //要特别注意你替换的方法到底是哪个性质的方法
