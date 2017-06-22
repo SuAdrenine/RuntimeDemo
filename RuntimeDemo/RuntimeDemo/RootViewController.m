@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSArray *titleArr = @[@"获取属性、成员变量与方法",@"获取协议列表以及方法交换",@"在分类中增加属性",@"获取类中所有成员变量以及归解档",@"字典转模型",@"探索selector找到对应的IMP地址"];
+    NSArray *titleArr = @[@"获取属性、成员变量与方法",@"获取协议列表以及方法交换",@"在分类中增加属性",@"获取类中所有成员变量以及归解档",@"字典转模型",@"探索selector找到对应的IMP地址",@"Others Demo"];
     for (int i=0; i<titleArr.count; i++) {
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         [button setTitle:titleArr[i] forState:UIControlStateNormal];
@@ -32,7 +32,7 @@
     }
     
     [self.buttonArr mas_distributeViewsAlongAxis:MASAxisTypeVertical
-                                withFixedSpacing:50 leadSpacing:100 tailSpacing:100];
+                                withFixedSpacing:20 leadSpacing:100 tailSpacing:50];
     
     [self.buttonArr mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self.view).offset(40);
@@ -71,6 +71,10 @@
                           @{@"class": @"FindIMPBySelectorViewController",
                             @"property":
                                 @{@"myTitle": @"探索selector找到对应的IMP地址"}
+                            },
+                          @{@"class": @"OthersDemoViewController",
+                            @"property":
+                                @{@"myTitle": @"Others Demo"}
                             }];
         [self push:userInfo[index]];
     

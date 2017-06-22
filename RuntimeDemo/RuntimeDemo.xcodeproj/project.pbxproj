@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5754235E1EFB47220012C70F /* FindIMPBySelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5754235D1EFB47220012C70F /* FindIMPBySelectorViewController.m */; };
+		575423611EFB71270012C70F /* OthersDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575423601EFB71270012C70F /* OthersDemoViewController.m */; };
+		575423641EFB8D3B0012C70F /* NSObject+WHRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 575423631EFB8D3B0012C70F /* NSObject+WHRuntime.m */; };
+		575423691EFB8D540012C70F /* TestRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 575423661EFB8D540012C70F /* TestRuntime.m */; };
+		5754236A1EFB8D540012C70F /* UIImage+swizzlingImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 575423681EFB8D540012C70F /* UIImage+swizzlingImage.m */; };
 		5761C5A71EF9005900E7C142 /* ExchangeDicAndModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761C5A61EF9005900E7C142 /* ExchangeDicAndModelViewController.m */; };
 		5761C5AA1EF9058D00E7C142 /* NSObject+JsonExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761C5A91EF9058D00E7C142 /* NSObject+JsonExtension.m */; };
 		5761C5AD1EF9069400E7C142 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761C5AC1EF9069400E7C142 /* User.m */; };
@@ -60,6 +64,14 @@
 		5101706A070CB8E48FA251C4 /* libPods-RuntimeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RuntimeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5754235C1EFB47220012C70F /* FindIMPBySelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindIMPBySelectorViewController.h; sourceTree = "<group>"; };
 		5754235D1EFB47220012C70F /* FindIMPBySelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindIMPBySelectorViewController.m; sourceTree = "<group>"; };
+		5754235F1EFB71270012C70F /* OthersDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OthersDemoViewController.h; sourceTree = "<group>"; };
+		575423601EFB71270012C70F /* OthersDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OthersDemoViewController.m; sourceTree = "<group>"; };
+		575423621EFB8D3B0012C70F /* NSObject+WHRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WHRuntime.h"; sourceTree = "<group>"; };
+		575423631EFB8D3B0012C70F /* NSObject+WHRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WHRuntime.m"; sourceTree = "<group>"; };
+		575423651EFB8D540012C70F /* TestRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRuntime.h; sourceTree = "<group>"; };
+		575423661EFB8D540012C70F /* TestRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRuntime.m; sourceTree = "<group>"; };
+		575423671EFB8D540012C70F /* UIImage+swizzlingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+swizzlingImage.h"; sourceTree = "<group>"; };
+		575423681EFB8D540012C70F /* UIImage+swizzlingImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+swizzlingImage.m"; sourceTree = "<group>"; };
 		5761C5A51EF9005900E7C142 /* ExchangeDicAndModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeDicAndModelViewController.h; sourceTree = "<group>"; };
 		5761C5A61EF9005900E7C142 /* ExchangeDicAndModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeDicAndModelViewController.m; sourceTree = "<group>"; };
 		5761C5A81EF9058D00E7C142 /* NSObject+JsonExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JsonExtension.h"; sourceTree = "<group>"; };
@@ -146,6 +158,8 @@
 		5761C5BB1EF906A500E7C142 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				575423621EFB8D3B0012C70F /* NSObject+WHRuntime.h */,
+				575423631EFB8D3B0012C70F /* NSObject+WHRuntime.m */,
 				57C8703D1EF75C1600BAE765 /* People+ReplaceMethod.h */,
 				57C8703E1EF75C1600BAE765 /* People+ReplaceMethod.m */,
 				57C8704C1EF8C93900BAE765 /* Man+AddAName.h */,
@@ -154,6 +168,8 @@
 				57C870561EF8EE0600BAE765 /* NSObject+EncodeAndDecode.m */,
 				5761C5A81EF9058D00E7C142 /* NSObject+JsonExtension.h */,
 				5761C5A91EF9058D00E7C142 /* NSObject+JsonExtension.m */,
+				575423671EFB8D540012C70F /* UIImage+swizzlingImage.h */,
+				575423681EFB8D540012C70F /* UIImage+swizzlingImage.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -243,6 +259,8 @@
 				5761C5BC1EF90CF200E7C142 /* model.json */,
 				5754235C1EFB47220012C70F /* FindIMPBySelectorViewController.h */,
 				5754235D1EFB47220012C70F /* FindIMPBySelectorViewController.m */,
+				5754235F1EFB71270012C70F /* OthersDemoViewController.h */,
+				575423601EFB71270012C70F /* OthersDemoViewController.m */,
 			);
 			name = RuntimeClass;
 			sourceTree = "<group>";
@@ -267,6 +285,8 @@
 				57C870531EF8CBB200BAE765 /* ManyIvar.m */,
 				57C870581EF8F58D00BAE765 /* CongigManyIvar.h */,
 				57C870591EF8F58D00BAE765 /* CongigManyIvar.m */,
+				575423651EFB8D540012C70F /* TestRuntime.h */,
+				575423661EFB8D540012C70F /* TestRuntime.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -475,8 +495,10 @@
 			files = (
 				57C8704B1EF8C91F00BAE765 /* Man.m in Sources */,
 				57C870571EF8EE0600BAE765 /* NSObject+EncodeAndDecode.m in Sources */,
+				575423691EFB8D540012C70F /* TestRuntime.m in Sources */,
 				5761C5AD1EF9069400E7C142 /* User.m in Sources */,
 				57C870351EF386B000BAE765 /* People.m in Sources */,
+				5754236A1EFB8D540012C70F /* UIImage+swizzlingImage.m in Sources */,
 				5754235E1EFB47220012C70F /* FindIMPBySelectorViewController.m in Sources */,
 				5761C5C21EF90DBD00E7C142 /* Cat.m in Sources */,
 				57C8704E1EF8C93900BAE765 /* Man+AddAName.m in Sources */,
@@ -485,6 +507,8 @@
 				57C870391EF3CB8700BAE765 /* ExchangeMethodViewController.m in Sources */,
 				57C8702D1EF3711300BAE765 /* BaseViewController.m in Sources */,
 				5761C5B71EF906A100E7C142 /* Book.m in Sources */,
+				575423611EFB71270012C70F /* OthersDemoViewController.m in Sources */,
+				575423641EFB8D3B0012C70F /* NSObject+WHRuntime.m in Sources */,
 				57C8705A1EF8F58D00BAE765 /* CongigManyIvar.m in Sources */,
 				57C86FF71EF3642B00BAE765 /* AppDelegate.m in Sources */,
 				57C870271EF3645400BAE765 /* RootViewController.m in Sources */,
@@ -644,6 +668,7 @@
 			baseConfigurationReference = 3FAA42295EE455A3E4B27852 /* Pods-RuntimeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = RuntimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xby.RuntimeDemo;
@@ -656,6 +681,7 @@
 			baseConfigurationReference = 6D62B7F4823FC418B30FB22F /* Pods-RuntimeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = RuntimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xby.RuntimeDemo;
